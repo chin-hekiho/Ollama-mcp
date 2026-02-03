@@ -1,11 +1,11 @@
 {
-  "name": "ollama-mcp",
-  "version": "0.1.0",
-  "description": "An ollama MCP server designed to allow Cline or other MCP supporting tools to access ollama",
+  "name": "unified-mcp-server",
+  "version": "1.0.0",
+  "description": "Unified MCP server integrating Ollama, Chinese Poetry, Fashion Stylist, and Meeting Notes AI tools",
   "private": true,
   "type": "module",
   "bin": {
-    "ollama-mcp": "./build/index.js"
+    "unified-mcp": "./build/index.js"
   },
   "files": [
     "build"
@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",

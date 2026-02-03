@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "fashion-stylist": {
+            "command": "wsl",
+            "args": [
+                "/home/chinhekiho/mhd/dev/fashion_stylist_app/build/index.js"
+            ]
+        }
+    }
+}
