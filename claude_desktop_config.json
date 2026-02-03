@@ -4,7 +4,7 @@
             "command": "wsl",
             "args": [
                 "node",
-                "/home/chinhekiho/mhd/dev/Ollama-mcp/build/index.js"
+                "~/Ollama-mcp/build/index.js"
             ],
             "env": {
                 "OLLAMA_HOST": "http://127.0.0.1:11434"
