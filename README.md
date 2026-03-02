@@ -76,7 +76,7 @@ npm run build
       "command": "wsl",
       "args": [
         "node",
-        "/home/chinhekiho/mhd/dev/Ollama-mcp/build/index.js"
+        "~/Ollama-mcp/build/index.js"
       ],
       "env": {
         "OLLAMA_HOST": "http://127.0.0.1:11434"
@@ -180,7 +180,6 @@ Ollama-mcp/
 └── MIGRATION.md                    # 迁移指南
 ```
 
-> **注意**: `chinese_poetry_app` 和 `fashion_stylist_app` 目录中的 Python 应用仍然保留,但它们的独立 MCP 服务器已被移除并整合到统一服务器中。
 
 ---
 
